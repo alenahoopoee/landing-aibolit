@@ -1,0 +1,31 @@
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 15px;
+
+    &__button{
+        height: max-content;
+        background-color: var(--color-orange);
+        border: none;
+        border-radius: 50%;
+        padding: 9px 12px;
+        box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.2);
+
+        &--back {
+            rotate: 180deg;
+        }
+
+        &-image {
+            filter: brightness(0) invert(1);
+        }
+
+    }
+
+    &__gallery{
+        &-list {
+            display: flex;
+            column-gap: 15px;
+        }
+    }
+}

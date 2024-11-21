@@ -1,0 +1,15 @@
+.soc1al {
+    margin-top: auto;
+
+    &__list {
+        display: flex;
+        gap: 40px;
+    }
+
+    &__item {
+        @include hover {
+            opacity: 0.7;
+            transition-duration: var(--transition-duration);
+        }
+    }
+}

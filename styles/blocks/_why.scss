@@ -1,0 +1,21 @@
+.why {
+    display: flex;
+    flex-direction: column;
+    padding-block: calc(var(--container-padding-y) * 4);
+    justify-content: center;
+    align-items: center;
+    row-gap: 80px;
+
+    &__list{
+        --gridColumns: 3;
+        gap: 50px;
+    }
+     
+    &__item {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        width: 367px;
+        height: 190px;
+    }
+}

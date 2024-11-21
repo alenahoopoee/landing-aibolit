@@ -1,0 +1,13 @@
+.address {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+    &__description {
+        display: flex;
+        font-family: var(--font-futura-newBook);
+        line-height: 150%;
+        color: var(--color-brown);
+        column-gap: 15px;
+    }
+}

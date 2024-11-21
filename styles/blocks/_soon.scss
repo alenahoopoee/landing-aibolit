@@ -1,0 +1,51 @@
+.soon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    column-gap: 110px;
+    padding-inline: calc(var(--container-padding-x) * 2) ;
+    background-color: var(--color-orange);
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    &__description {
+        font-family: var(--font-futura-newBook);
+        font-size: 30px;
+        line-height: 67%;
+        color: var(--color-light);
+    }
+
+    &__title {
+        font-size: 70px;
+        line-height: 137%;
+        color: var(--color-light);
+    }
+
+    &__markets {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+    }
+
+    &__image {
+        position: relative;
+
+        &-phone {
+            position: relative;
+            z-index: 3;
+        }
+
+        &-dog {
+            position: absolute;
+            bottom: 0px;
+            right: 210px;
+            aspect-ratio: 1;
+            height: 396px;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.header {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        display: flex;
+    }
+    &__menu {
+        &-list {
+            display: flex;
+            column-gap: 80px;
+        }
+        
+        &-link {
+            font-family: var(--font-futura-newBold);
+            font-size: 20px;
+            line-height: 100%;
+            color: var(--color-brown-light);
+            text-transform: uppercase;
+
+            @include hover {
+                color: var(--color-brown);
+                transition-duration: var(--transition-duration);
+            }
+        }
+    }
+    &__location {
+        display: flex;
+        align-items: center;
+        column-gap: 5px;
+
+        &-text {
+            font-family: var(--font-futura-newBold);
+            font-size: 20px;
+            line-height: 100%;
+            color: var(--color-orange);
+            text-transform: uppercase;
+
+            @include hover {
+                color: #ec8e4e;
+                transition-duration: var(--transition-duration);
+            } 
+        }
+
+    
+        
+        
+    }
+}

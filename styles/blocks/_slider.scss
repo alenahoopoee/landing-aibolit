@@ -1,0 +1,41 @@
+.slider {
+
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        list-style-type: none;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__button {
+        padding: 15px;
+        background-color: transparent;
+        border: none;
+        font-family: var(--font-futura-newBold);
+        color: var(--color-brown-light);
+
+        // @include hover {
+        //     opacity: 0.7;
+        // }
+    }
+
+    &__active {
+        background-image: url(../../images/slider/circle.svg);
+        background-size: 40px;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: var(--color-dark);
+    }
+    
+
+
+
+ 
+}

@@ -1,0 +1,30 @@
+.resources {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    &__markets {
+        display: flex;
+        column-gap: 15px;
+    }
+
+    &__soc1al {
+        margin-top: 0;
+        filter: brightness(0) saturate(100%) invert(100%);
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+        font-family: var(--font-futura-newBook);
+        line-height: 150%;
+        color: var(--color-white);
+    }
+
+    &__copyright {
+        padding-top: 50px;
+        font-family: var(--font-futura-newBook);
+        line-height: 150%;
+        color: var(--color-white);
+    }
+}

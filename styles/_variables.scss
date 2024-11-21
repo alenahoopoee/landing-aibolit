@@ -1,0 +1,33 @@
+:root {
+    --color-brown: #59443f;
+	--color-orange: #ffc59e;
+	--color-dark: #080606;
+	--color-light: #fffefe;
+    --color-white: #ffffff;
+	--color-brown-light: #c3b9b5;
+	--color-brown-bg: #ede9e8;
+    --color-light-bg: #fbf8f8;
+
+    --font-futura-newDemi: "Futura NewDemi", sans-serif;
+    --font-futura-newMedium: "Futura NewMedium", sans-serif;
+    --font-futura-newBold: "Futura NewBold", sans-serif;
+    --font-futura-newBook: "Futura NewBook", sans-serif;
+    --font-schoolBook: "SchoolBook Cyrillic", sans-serif;
+
+    --border: 1px solid var(--color-brown-light);
+
+    --border-radius: 20px;
+    --border-radius-big: 33px;
+
+    --shadow-dark: 2px 2px 10px 0 rgba(0, 0, 0, 0.1);
+    --shadow-orange: 0 4px 20px 0 var(--color-orange);
+
+    --container-width: 1760px;
+    --container-padding-x: 80px;
+    --container-padding-y: 50px;
+
+    --header-height: 162.8px;
+    --button-height: 67px;
+
+    --transition-duration: 0.2s;
+}

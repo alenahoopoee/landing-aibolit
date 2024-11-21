@@ -1,0 +1,12 @@
+.services {
+    padding-block: calc(var(--container-padding-y) * 2.5);
+    display: flex;
+    justify-content: center;
+    
+    &__list {
+        --gridColumns: 4;
+        justify-items: center;
+        align-items: center;
+    }
+
+}
